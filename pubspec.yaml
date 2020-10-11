@@ -14,6 +14,15 @@ dependencies:
 
   auto_size_text: ^2.1.0
   cupertino_icons: ^1.0.0
+  flutter_colorpicker: ^0.3.4
+  shared_preferences: ^0.5.12
+
+  flutter_launcher_icons: ^0.8.1
+
+flutter_icons:
+  image_path: assets/images/logo.png
+  android: true
+  ios: true
 
 dev_dependencies:
   flutter_test:
@@ -28,6 +37,7 @@ flutter:
   assets:
     - assets/
     - assets/images/
+    - assets/images/logo.png
     - assets/files/quotes.json
 
   # To add custom fonts to your application, add a fonts section here,
